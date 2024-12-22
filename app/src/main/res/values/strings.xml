@@ -1,0 +1,85 @@
+<resources>
+    <!--form login-->
+    <string name="signin">Silahkan Masuk</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Tidak punya akun, silahkan
+<u><b>Mendaftar</b></u></string>
+
+    <string name="medsos">Kunjungi Media Sosial Kami</string>
+    <string name="app_name">Bengkalis Online Service</string>
+
+    <!--navigation drawer-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigationdrawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <!--menu drawer-->
+    <string name="menu_home">Beranda</string>
+    <string name="menu_user_services">Jasa Pengguna</string>
+    <string name="menu_account_setting">Pengaturan Akun</string>
+    <string name="menu_user_profile">Profil Pengguna</string>
+    <string name="menu_logout">Logout</string>
+
+    <!--splash screen-->
+    <string name="icon_url">https://www.flaticon.com/</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--form register-->
+    <string name="daftar">Daftar Akun</string>
+    <string name="nama">Nama</string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+    <array name="jenis_kelamin">
+        <item>Jenis Kelamin</item>
+        <item>Pria</item>
+        <item>Wanita</item>
+    </array>
+    <string name="no_hp">Nomor HP</string>
+    <string name="alamat">Alamat</string>
+    <string name="konfirmasi_password">Konfirmasi Password</string>
+    <string name="submit">Submit</string>
+
+    <!--fragment profile-->
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="waktu_sesi">Waktu Sesi</string>
+    <string name="mypicture">Gambar Profil</string>
+    <string name="myname">Depandi Enda</string>
+    <string name="mybirth">22 Mei 1990</string>
+    <string name="mygender">Pria</string>
+    <string name="myphone">0852–7447–2585</string>
+    <string name="myaddres">Kompleks Sartika No. 6B, Jl. Bantan, Gg.Ikhlas, Desa Senggoro, Bengkalis - Riau</string>
+    <string name="myemail">depandienda@gmail.com</string>
+    <string name="mysession">09–10–2018 09:00:00</string>
+    <string name="edit_profil">Ubah Profil</string>
+    <string name="hapus_akun">Hapus Akun</string>
+
+    <!--form edit profile-->
+    <string name="ubah_profile">Ubah Profile</string>
+    <string name="judul_password">Silahkan kosongkan password, jika tidak mau mengubahnya!</string>
+
+    <!--jasa list-->
+    <string name="service_ac_barokah">Service AC Barokah</string>
+    <string name="deskripsi_ringkas">Melayani service ac rumah, kantor, gedung dll</string>
+    <string name="rating">4</string>
+
+    <!--form detail jasa-->
+    <string name="detail_jasa">Detail Jasa</string>
+    <string name="nama_jasa">Nama Jasa</string>
+    <string name="penyedia">Penyedia</string>
+    <string name="kontak">Kontak</string>
+    <string name="newrating">Rating</string>
+    <string name="deskripsi_singkat">Deskripsi Singkat</string>
+    <string name="uraian_deskripsi">Uraian Deskripsi</string>
+
+    <!--form add jasa-->
+    <string name="tambah_jasa">Tambah Jasa</string>
+    <string name="default_rating"><i>Default Rating = </i></string>
+    <string name="nol"><i>0</i></string>
+    <string name="cari">Cari</string>
+    <string name="pilih_gambar">Pilih sebuah gambar!</string>
+    <string name="simpan_data">&#160;Simpan Data&#160;</string>
+</resources>
