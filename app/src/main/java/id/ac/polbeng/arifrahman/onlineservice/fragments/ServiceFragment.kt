@@ -1,6 +1,5 @@
 package id.ac.polbeng.arifrahman.onlineservice.fragments
 
-
 import android.content.Intent
 import id.ac.polbeng.arifrahman.onlineservice.activities.AddJasaActivity
 import android.os.Bundle
@@ -17,6 +16,8 @@ import id.ac.polbeng.arifrahman.onlineservice.models.Jasa
 import id.ac.polbeng.arifrahman.onlineservice.models.JasaResponse
 import id.ac.polbeng.arifrahman.onlineservice.services.JasaService
 import id.ac.polbeng.arifrahman.onlineservice.services.ServiceBuilder
+import id.ac.polbeng.arifrahman.onlineservice.activities.EditJasaActivity
+import id.ac.polbeng.arifrahman.onlineservice.helpers.Config
 import retrofit2.Call
 import retrofit2.Response
 
@@ -90,6 +91,10 @@ class ServiceFragment : Fragment() {
                             JasaAdapter.OnItemClickCallback {
                             override fun onItemClicked(data: Jasa) {
                                 Toast.makeText(context, "Service clicked${data.namaJasa}", Toast.LENGTH_SHORT).show()
+                                val intent = Intent(context,
+                                    EditJasaActivity::class.java)
+                                intent.putExtra(Config.EXTRA_JASA, data)
+                                startActivity(intent)
                             }
                         })
                     }

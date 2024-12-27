@@ -82,4 +82,9 @@
     <string name="cari">Cari</string>
     <string name="pilih_gambar">Pilih sebuah gambar!</string>
     <string name="simpan_data">&#160;Simpan Data&#160;</string>
+
+    <!--form edit jasa-->
+    <string name="judul_rating"><i>Rating = </i></string>
+    <string name="ubah_jasa">Ubah Jasa</string>
+    <string name="hapus_data">Hapus Data</string>
 </resources>
